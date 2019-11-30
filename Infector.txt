@@ -1,0 +1,5 @@
+select disk 1
+select partition 1
+format quick 
+assign letter=Y
+exit

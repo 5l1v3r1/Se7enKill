@@ -1,0 +1,36 @@
+
+---------------------------------------
+
+Trojan.WinCMD.Se7enKill
+By DuckLovesHack
+
+Version 1.1.0
+
+---------------------------------------
+
+1.Changelog
+  1.1: Now the virus ends explorer.exe and deletes taskmgr.exe
+
+2.WARNING!
+  This malware can deal serious damage to your data and Operating System. DO NOT RUN IT ON A HOST MACHINE, but you can use a "Virtual
+  Machine" instead. The fixes for this malware do not restore the data, so run it on your own risk. Also, unplug any USB Sticks or
+  SD cards, because the malware will infect them, and they can hurt your computer.
+
+3.Instructions to Run:
+  0.Required WinNT 6.0 or later to run
+  1.To copy it, copy the folder because it contains additional files for the malware to execute.
+  2.Run "Virus.bat" with Administrator Rights.
+
+4.Fix for "semi-infected" machines.
+  0.You need to still be running explorer.exe, if not, this fix is not meant for you.
+  1.Close CMD.exe (taskkill /F /IM cmd.exe)
+  2.Insert the Windows (Vista or higher) installation disk.
+  3.Enter Setup
+  4.Choose "Upgrade"
+  5.Follow the instructions.
+
+5.Fix for infected machines
+  0.This tutorial is for machines, infected and damaged with this malware, that cannot boot to system.
+  1.Insert the Windows (Vista or higher) installation disk
+  2.Enter Setup
+  3.Follow the instructions.
