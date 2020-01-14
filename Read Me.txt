@@ -4,12 +4,12 @@
 Trojan.WinCMD.Se7enKill
 By DuckLovesHack
 
-Version 1.1.0
-
+Version 2.0.0
 ---------------------------------------
 
 1.Changelog
   1.1: Now the virus ends explorer.exe and deletes taskmgr.exe
+  2.0: Now, the files will be deleted from %username% directory
 
 2.WARNING!
   This malware can deal serious damage to your data and Operating System. DO NOT RUN IT ON A HOST MACHINE, but you can use a "Virtual
